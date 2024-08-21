@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/bg.jpg);
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    top: 0;
+    background-color: black;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.76;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 70px;
+}
+
+nav img {
+    width: 174px;
+    position: relative;
+    z-index: 10;
+    padding-top: 12px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(78%-70px);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    gap: 23px;
+    padding: 23px;
+
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 49px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 34px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+.seperation {
+    background-color: grey;
+    height: 10px;
+}
+
+.btn {
+    padding: 4px 14px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.111);
+    box-shadow: inset;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btnred {
+    background-color: red;
+    border-radius: 5px;
+    padding: 13px 31px;
+    font-weight: 233;
+    font-size: 22px;
+    color: white;
+}
+
+.btnred-sn {
+    background-color: red;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.main input {
+    border-radius: 5px;
+    padding: 13px 4px;
+    font-weight: 233;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.111);
+    box-shadow: inset;
+    color: white;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+}
+
+.seperation {
+    height: 4px;
+    background-color: rgba(128, 128, 128, 0.329);
+    width: 100vw;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+
+}
+
+.first .info {
+    color: white;
+    font-size: 35px;
+}
+
+.fimg {
+    position: relative;
+}
+
+.fimg img {
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+.fimg video {
+    position: absolute;
+    width: 27vw;
+    top: 102px;
+    right: 92px;
+} 
+.info > :nth-child(2) {
+    font-size: 34px;
+    font-weight: bolder;
+}
+.faq{
+    color: white;
+    background-color: black;
+    padding: 23px;
+
+}
+.faq .faqs{
+    color: white;
+    background-color: grey;
+    font-size: 23px;
+    padding: 19px;
+
+} 
+.faqs{
+    width: 40vw;
+    margin:  12px auto;
+    display: flex;
+    flex-direction: column;
+   
+    cursor: pointer;
+   h
+}
+.faq h2{
+    text-align: content: ;
+    font-size: 61px;
+    padding: 12px;
+}
+.faqs img{
+    height: 2px;
+}
+.faqs span{
+    margin-top: 12px;
+}
+   
